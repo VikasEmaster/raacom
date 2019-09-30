@@ -1,0 +1,27 @@
+.bg-img {
+    background-image: url(../assets/img/artificial-intelligence-automation-bookcase-1329068.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+.form_bg {
+    border: 1px solid #f1f1f1;
+    padding: 25px;
+    border-radius: 15px;
+    display: block;
+    margin: 0px auto;
+    background-color: #fff;
+    width:900px;
+}
+.title {
+    font-size: 30px;
+    color: #807a7a;
+    margin-left:20px;
+    margin-top:25px;
+}
+.form_bg span {
+    color: #32b0e4;
+    position: relative;
+    font-size: 25px;
+    font-family: monospace;
+}

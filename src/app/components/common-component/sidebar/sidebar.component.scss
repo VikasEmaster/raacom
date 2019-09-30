@@ -1,0 +1,134 @@
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#wrapper {
+  width: 10%;
+  position: absolute;
+  top: 0px;
+  box-shadow: 0 0 20px #ced3da;
+}
+
+#sidebar-wrapper .list-group {
+  width: 135px;
+  height: 850px;
+  background-color: white;
+}
+
+.fa {
+  // padding: 30px 50px 30px 45px;
+  color: #37aaf9;
+  font-size: 30px;
+  width: 35px;
+}
+
+.bg-light {
+  background-color: #fff !important;
+  box-shadow: 0 0 0 0px #ced3da;
+  border-right: none !important;
+  padding: 0;
+}
+
+a.bg-light:hover {
+  background-color: transparent !important;
+}
+
+.sidebar-heading {
+  background-color: #37aaf9 !important;
+}
+
+.sidebar_img {
+  padding: 45px 0 45px 15px;
+}
+
+// .sign_img {
+//   padding: 0 0 0 20px;
+// }
+.sidebar-heading {
+  padding: 10px 0 10px 38px !important;
+}
+
+.list-group a {
+  padding: 25px 0px 18px 0px;
+  font-size: 18px;
+}
+.list-group-flush:last-child .list-group-item:last-child {
+  border-bottom: 1px solid #ccc !important;
+}
+.active {
+  z-index: 2;
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff;
+    width: 140px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+button.active i {
+  z-index: 2;
+    color: #fff !important;
+}
+.list-group-item.active i:hover {
+  z-index: 2;
+    color: #fff !important;
+}
+.tooltip-col:hover {
+  background-color: #007bff!important;
+  color: white !important;
+  display: block;
+  width: 140px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.mat-raised-button {
+  padding: 0 0px;
+}
+
+buttonl i:hover {
+  color: #fff !important;
+}
+.flex-sm-fill[_ngcontent-smo-c4] {
+  margin-left: 25px !important;
+  /* padding-bottom: 15px; */
+}
+/*///////////////Right Tooltip w/ Left Arrow////////////////*/
+.tooltip-col {
+  position: relative;
+  display: inline-block;
+  cursor:pointer;
+  text-align:center;
+  padding: 25px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  height:50px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 110%;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.tooltip-col:hover .tooltiptext {
+  visibility: visible;
+}
